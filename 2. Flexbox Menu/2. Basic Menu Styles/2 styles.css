@@ -1,0 +1,42 @@
+* { 
+  box-sizing: border-box; 
+}
+
+body { 
+  font-family: Arial; 
+}
+
+.main-nav .menu { /* applied to the ul */
+  background-color: #eee;
+  list-style: none;
+  padding-left: 0;
+  height: 60px;
+  display: flex; /* treats as a row and not a column */
+  flex-direction: row; /* set horizontally */
+  justify-content: space-around ; /*similar space between the items */
+}
+
+.main-nav .menu li {
+  padding: 4px;
+  padding-top: 14px;
+  /* float: left; - removed */
+  /* margin: 0 30px; - removed */
+}
+
+.main-nav .fa {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.main-nav .menu-text {
+  display: inline-block;
+}
+
+.main-nav h4, .main-nav p {
+  margin: 0;
+}
+
+.main-nav p {
+  font-size: 12px;
+}

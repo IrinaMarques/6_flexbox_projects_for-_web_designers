@@ -1,0 +1,16 @@
+Give the images diferent sizes and diferent number of images in each row. 
+
+1. Aplly basic styles to the images
+- see the images
+- we are going to point to the images-row div 
+- give some height, bg-repate, bg-size, bg-position
+- We are going to put a litle of a white border around all the images 
+
+2. Define flexbox properties
+- create a .image-row with a display: flex; - everything is going to disapear because don't have width.
+- in the first 3 images that are going to be together we set flex: 1; after the bg-image in each one.
+- for diferent sizes we set a diferent number to the ones we want
+- do the same in the all rows with diferent flex to make a litle messy.
+
+3. Create a media query to allows us to see the images
+- define the flex-direction to column

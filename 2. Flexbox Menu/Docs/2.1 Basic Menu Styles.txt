@@ -1,0 +1,26 @@
+Create a horizontal navigation menu using Flexbox.
+
+Option 1:
+Use media queries.
+
+Option 2:
+Use flexbox.
+Adjust space as we resize our browser.
+Will over with the floats and margins and is going to automatically adjust the sapce between the items.
+
+Steps:
+------
+1. Remove the float and the margins in the menu li
+
+2. In html set flex-container - ul - childreen with be flex items - li
+
+3. In css the ul should be display: flex;
+
+4. Set the flex-direction: row; (in this case)
+- the case of flex-direction: column; (the items will be stack in top of each other)
+
+5. Set the justify-content: space-around; - center the items setting similar space between them.
+- justify-content: flex-start; - left/top align of the horizontal/vertical axis
+- justify-content: flex-end; - right/buttom align of the horizontal/vertical axis
+- justify-content: center; - center align items
+- justify-content: space-between; - align items making the first on the far left and the last on the far right. The space between the items is equalized.

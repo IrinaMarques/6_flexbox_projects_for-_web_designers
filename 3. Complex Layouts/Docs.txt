@@ -1,0 +1,25 @@
+Use flexbox to layout an entire page.
+
+Will consiste in two columns with the same height.
+
+Steps:
+------
+
+1. Which item will be the flexbox container?
+- the parent is the div with the class of container
+- set in css display: flex;
+
+2. To resize the columns. Make the first column twice larger then the second column:
+- the flex property allows us to use an arbitrary number system to determin the widths
+- if we set the the first column set to 2 and the second set to 1 makes the first column twice the width of the second column.
+- in css on the .main-content set the flex: 3; (in this case)
+- in css on the .sidebar set the flex: 1; (in this case)
+- the columns will now have the same height
+
+3. How can we nest flexbox containers in our layout?
+- to fill all the size of the second column
+- we make the sidebar a container - display: flex;
+- make the flex-direction: column;
+- make the justify-content: space-between;
+
+ 

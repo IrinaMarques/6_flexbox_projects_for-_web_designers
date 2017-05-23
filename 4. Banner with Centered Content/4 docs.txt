@@ -1,0 +1,17 @@
+Vertically and Horizontally Centered
+
+1. Option:
+Go to the rules for the 3 headings:
+- text-align: center; - horizontally centered
+- create a new rule to .banner-text
+- give a padding-top: 60px
+
+2. Option:
+Use the flexbox:
+- flex-conatiner will be the banner
+To align horizontally
+- display: flex
+- justify-content: center
+To align vertically
+- align-items: center; - start at the 
+- align-items: center | end | start

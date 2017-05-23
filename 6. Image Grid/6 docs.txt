@@ -1,0 +1,16 @@
+1. Build a simple image grid with flexbox using background images.
+
+p.s. all images are 350px width
+
+1. Step apply some styles to the images
+- first we are going to apply some styles to the div inside the image-grid.
+- the image will take 1/4 of the with or 25%
+- set the bg-repeat, bg-size, bg-position
+- get rid of the margins on the html and body
+
+2. Apply flexbox rules
+- in the container display: flex; - display all images to one row
+- use the propery flex-wrap: wrap;
+- with smaller browers we need to add media queries
+- here we point the flex direction to column, and the flex-wrap to no-wrap
+- another rule to .image-grid div with the width to 100%

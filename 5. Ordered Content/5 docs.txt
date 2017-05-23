@@ -1,0 +1,9 @@
+1. Change the order of a Css at a certain break point.
+
+- Separate two columns;
+- Set one to display: flex;
+- Create a media query
+- Point to the flex container object and flex-direction: column;
+- To swap the order we point to the aside container and order: -1;
+
+p.s. - Don't work because of chrome support??
